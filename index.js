@@ -14,6 +14,10 @@ mongoBD()
 
 app.use('/api',router)
 
+app.get('/',(req,res)=>{
+   res.status(200).send("Rnu")
+})
+
 
 
 app.listen(process.env.PORT,(req,res)=>{
