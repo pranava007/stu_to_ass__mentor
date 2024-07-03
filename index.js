@@ -15,7 +15,7 @@ mongoBD()
 app.use('/api',router)
 
 app.get('/',(req,res)=>{
-   res.status(200).send("Rnu")
+   res.status(200).send("Rnu ")
 })
 
 
